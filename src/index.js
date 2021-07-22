@@ -1,8 +1,13 @@
+/* eslint-disable no-restricted-globals */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+if (location.host !== "localhost" && location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
 
 ReactDOM.render(
   <React.StrictMode>

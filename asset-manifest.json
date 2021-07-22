@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e32aa59.chunk.css",
+    "main.js": "/static/js/main.b51f4280.chunk.js",
+    "main.js.map": "/static/js/main.b51f4280.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.403f0805.js",
+    "runtime-main.js.map": "/static/js/runtime-main.403f0805.js.map",
+    "static/js/2.81025bbf.chunk.js": "/static/js/2.81025bbf.chunk.js",
+    "static/js/2.81025bbf.chunk.js.map": "/static/js/2.81025bbf.chunk.js.map",
+    "static/js/3.312c8037.chunk.js": "/static/js/3.312c8037.chunk.js",
+    "static/js/3.312c8037.chunk.js.map": "/static/js/3.312c8037.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3e32aa59.chunk.css.map": "/static/css/main.3e32aa59.chunk.css.map",
+    "static/js/2.81025bbf.chunk.js.LICENSE.txt": "/static/js/2.81025bbf.chunk.js.LICENSE.txt",
+    "static/media/iPhone.de4ba6cb.svg": "/static/media/iPhone.de4ba6cb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.403f0805.js",
+    "static/js/2.81025bbf.chunk.js",
+    "static/css/main.3e32aa59.chunk.css",
+    "static/js/main.b51f4280.chunk.js"
+  ]
+}

@@ -9,26 +9,31 @@ body {
 
 h1.headlinetype {
   width: 70%;
-  font-size: 34px;
+  font-size: 38px;
   font-weight: bold;
   color: #000;
 }
 
 h4.bodytype {
-  color: #868686;
+  color: #62c59e;
   font-weight: 500;
+  font-size: 20px;
 }
 
 div.appstore {
-  width: 80px;
-  height: 40px;
+  width: 90px;
+  height: 45px;
+  padding: 0 22px;
   border-radius: 8px;
   border: 1px solid #000;
   color: #000;
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 section.lead {
@@ -41,6 +46,111 @@ section.lead {
   min-height: 1050px;
 }
 
+@media(min-width: 375px) {
+  section.lead {
+    min-height: 1200px;
+  }
+}
+
+/* Fold */
+@media(max-width: 280px) {
+  section.lead {
+    background-position-y: 450px
+  }
+}
+
+/* Large Mobile */
+@media(min-width: 450px) {
+  section.lead {
+    min-height: 700px;
+
+
+    background-size: 270px;
+    background-position-x: calc(40vw);
+    background-position-y: 200px;
+  }
+}
+
+/* iPad */
+@media(min-width: 667px) {
+
+  h1.headlinetype {
+    /* width: 70%; */
+    font-size: 60px;
+
+  }
+
+  h4.bodytype {
+    font-size: 24px;
+  }
+
+  section.lead {
+    min-height: 800px;
+
+    background-size: 270px;
+    background-position-x: calc(50vw);
+    background-position-y: 300px;
+  }
+
+  div.appstore {
+    width: 100px;
+    height: 50px;
+    padding: 0 25px;
+    font-size: 18px;
+  }
+}
+
+/* Widescreen */
+@media(min-width: 1024px) {
+
+  h1.headlinetype {
+    font-size: 60px;
+  }
+
+  h4.bodytype {
+    font-size: 24px;
+  }
+
+  section.lead {
+    min-height: unset;
+    height: calc(100vh - 100px);
+    background-size: 333px;
+    background-position-x: calc(100% - 40px);
+    background-position-y: 90px;
+  }
+}
+
+/* L-Widescreen */
+@media(min-width: 1440px) {
+
+  body {
+    margin: 0 auto;
+    max-width: 1670px;
+  }
+
+  h1.headlinetype {
+    font-size: 72px;
+  }
+
+  h4.bodytype {
+    font-size: 34px;
+  }
+
+  section.lead {
+    min-height: unset;
+    height: calc(100vh - 100px);
+    background-size: 450px;
+    background-position-y: -40px;
+  }
+
+  div.appstore {
+    width: 122px;
+    height: 60px;
+    padding: 0 30px;
+    font-size: 20px;
+  }
+}
+
 @media(prefers-color-scheme: dark) {
   body {
     background-color: #000;
@@ -48,6 +158,10 @@ section.lead {
 
   h1.headlinetype {
     color: #fff;
+  }
+
+  h4.bodytype {
+    color: #7CF0C2
   }
 
   div.appstore {
